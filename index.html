@@ -1,11 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Домашнее задание 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <div class="top">
+        <div class="top-welcome center">
+          <div class="top-box">
+              <h1 class="top-box__hello">Добро пожаловать <br>на мой сайт мини-игр</h1>
+              <p class="top-box__info">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b>«Поехали!»</b> и <b>приступай</b>.</p>
+          </div>
+          <a href="#about-game"> <button class="top-box__button">Поехали!</button></a>
+        </div>
+        <div class="ticker">
+            <p>викторина</p>
+            <svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+            <p>угадай число</p>
+            <svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+            <p>переверни текст</p>
+            <svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>            
+            <p>простая</p>
+        </div>
+    </div>
+    <div class="game-block center">
+        <div class="game-block__about">
+            <h1 id="about-game" class="game-block__title">Об играх</h1>
+            <div class="game-block__info">
+              <p>В моей коллекции представлено 6 игр на разные темы.</p> 
+              <p>Игры несложные — в них может поиграть каждый.</p>  
+              <p>Все игры доступны для пользования.</p>
+            </div>
+        </div>
+        <div class="card-box">
+            <div class="card-box__column">
+               <a href="#game1">
+                  <div class="card">
+                     <img class="card__img" src="img/game1.jpeg" alt="game1">
+                     <div class="card__info">
+                         <p class="card__numb">Игра № 1</p>
+                         <h3 class="card__subtitle">Угадай число</h3>
+                     </div>
+                  </div>   
+               </a>  
+               <a href="#game4">
+                   <div class="card card-big">
+                       <img class="card__img" src="img/game4.jpeg" alt="game4">
+                       <div class="card__info">
+                         <p class="card__numb">Игра № 4</p>
+                        <h3 class="card__subtitle">Камень, ножницы,<br>бумага</h3>  
+                       </div>
+                   </div>
+                </a> 
+             </div>
+             <div class="card-box__column">
+                <a href="#game2"><
+                  <div class="card card-middle">
+                      <img class="card__img" src="img/game2.jpeg" alt="game2">
+                      <div class="card__info">
+                         <p class="card__numb">Игра № 2</p>
+                         <h3 class="card__subtitle">Простая арифметика</h3>
+                      </div>
+                  </div>
+               </a>
+               <a href="#game5">   
+                    <div class="card card-middle">
+                        <img class="card__img" src="img/game5.jpeg" alt="game5">
+                        <div class="card__info">
+                          <p class="card__numb">Игра № 5</p>
+                          <h3 class="card__subtitle">Простая викторина</h3>  
+                        </div>
+                    </div>
+               </a>     
+             </div>
+             <div class="card-box__column">
+                <a href="#game3">
+                <div class="card">
+                    <img class="card__img" src="img/game3.jpeg" alt="game3">
+                    <div class="card__info">
+                      <p class="card__numb">Игра № 3</p>
+                      <h3 class="card__subtitle">Переверни текст</h3>
+                    </div>
+                </div>
+                </a>
+                <a href="#game6">
+                <div class="card card-big">
+                    <img class="card__img" src="img/game6.jpeg" alt="game6">
+                    <div class="card__info">
+                      <p class="card__numb">Игра № 6</p>
+                      <h3 class="card__subtitle">Генератор случайных цветов</h3>  
+                   </div>
+                </div>
+            </a>
+             </div>
+
+            
+             
+
+
+
+        </div>
+    </div>
+
+
+
+    
 </body>
 </html>
