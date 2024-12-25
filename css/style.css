@@ -39,10 +39,10 @@ a {
 .top {
   height: 800px;
   width: 100%;
-  background: url("../img/top__img.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(img/starsgreen1.svg), url(img/starsgreen2.svg), url(img/big-star.svg), url(img/greentop.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 128px 62px, 148px 113px, contain, cover;
+  background-position: left 63px top 69px, bottom 149px right 344px, right, center;
 }
 
 .top-welcome {
@@ -52,6 +52,22 @@ a {
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+.top-welcome__button {
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  width: 247px;
+  height: 66px;
+}
+.top-welcome__button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .top-box {
@@ -77,22 +93,6 @@ a {
   font-weight: 400;
   line-height: 32px;
 }
-.top-box__button {
-  box-sizing: border-box;
-  border: 1px solid rgb(32, 32, 39);
-  border-radius: 60px;
-  background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  width: 247px;
-  height: 66px;
-}
-.top-box__button:hover {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
 
 .ticker {
   margin-top: 156px;
@@ -114,10 +114,10 @@ a {
 }
 
 .game-block {
-  background: url("../img/background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(img/blackstars.svg), url(img/bigblackstar.svg), url(img/blackback.png);
+  background-size: 71px 108px, 584.72px 584.72px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top 770px left 25px, top 70px right -143px, center;
   height: 1470px;
   padding-top: 94px;
   padding-bottom: 50px;
