@@ -39,7 +39,7 @@ a {
 .top {
   height: 800px;
   width: 100%;
-  background: url(img/starsgreen1.svg), url(img/starsgreen2.svg), url(img/big-star.svg), url(img/greentop.png);
+  background: url(../img/starsgreen1.svg), url(../img/starsgreen2.svg), url(../img/big-star.svg), url(../img/greentop.png);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 128px 62px, 148px 113px, contain, cover;
   background-position: left 63px top 69px, bottom 149px right 344px, right, center;
@@ -114,7 +114,7 @@ a {
 }
 
 .game-block {
-  background: url(img/blackstars.svg), url(img/bigblackstar.svg), url(img/blackback.png);
+  background: url(../img/blackstars.svg), url(../img/bigblackstar.svg), url(../img/blackback.png);
   background-size: 71px 108px, 584.72px 584.72px, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top 770px left 25px, top 70px right -143px, center;
