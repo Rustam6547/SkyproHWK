@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+}
+
+h2 {
+  color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 700;
+line-height: 59px;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+}
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600.5px);
+  padding-right: calc(50% - 600.5px);
+}
+.top {
+  height: 800px;
+  width: 100%;
+  background: url(../img/starsgreen1.svg), url(../img/starsgreen2.svg), url(../img/big-star.svg), url(../img/greentop.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 128px 62px, 148px 113px, contain, cover;
+  background-position: left 63px top 69px, bottom 149px right 344px, right, center;
+  
+  
+}
+.top-welcome {
+  width: 768px;
+  height: 358px;
+  padding-top: 196px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  &__button {
+      box-sizing: border-box;
+      border: 1px solid rgb(32, 32, 39);
+      border-radius: 60px;
+      background: rgb(32, 32, 39);
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 600;
+      width: 247px;
+      height: 66px;
+      &:hover {
+          background: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+      }
+  }   
+}
+.top-box {
+ width: 768px;
+ height: 244px;
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ &__hello {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+ }
+ &__info {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+ }
+ 
+ }
+.ticker {
+  margin-top: 156px;
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  height: 90px;
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  background: rgb(188, 236, 48);
+
+}
+.game-block {
+  background: url(../img/blackstars.svg), url(../img/bigblackstar.svg), url(../img/blackback.png);
+  background-size: 71px 108px, 584.72px 584.72px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top 770px left 25px, top 70px right -143px, center;
+  height: 1470px;
+  padding-top: 94px;  
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+
+  &__about {
+    height: 198px; 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__title {
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 78px;
+      text-align: left;
+  }
+
+  &__info {
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+  }
+}
+.card-box {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.card-box__column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.card {
+  width: 378px;
+  height: 473px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+  box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+  background: rgb(255, 255, 255);
+  &:hover {
+      transform: scale(1.1);
+  }
+  &__img {
+      border-radius: 30px;
+      background: rgb(173, 97, 255);
+  }
+  &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 32px;
+      margin-right: 32px;
+      margin-left: 32px;
+      margin-bottom: 36px;
+      text-align: justify;
+  }
+  &__numb {
+      color: rgb(32, 32, 39);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 110%;
+      border-radius: 52.58px;
+      background: rgb(247, 247, 247);
+      width: 108px;
+      height: 36px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+
+}
+.card-big {
+  height: 551px;
+}
+.card-middle {
+  height: 512px;
+}
