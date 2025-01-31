@@ -46,7 +46,6 @@ a {
 }
 
 .top-welcome {
-  width: 768px;
   height: 358px;
   padding-top: 196px;
   display: flex;
@@ -226,6 +225,8 @@ a {
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 100px 67px, 100px 77px, 223px 228px, 160px 155px;
     background-position: left 37px top 64px, bottom 79px right 34px, right top, left 225px top 0px;
+    position: relative;
+    overflow-x: hidden;
   }
   .top-welcome {
     padding-top: 147px;
@@ -260,17 +261,21 @@ a {
     line-height: 20px;
     text-align: center;
   }
-  /*.ticker {
-      margin-top: 131px;
-      font-size: 16px;
-      align-items: center;
-      gap: 27.4px;
-      width: 850px;
-      height: 51.34px;
-      position: absolute;
-  }*/
+  .ticker {
+    margin-top: 131px;
+    font-size: 16px;
+    align-items: center;
+    gap: 27.4px;
+    width: auto;
+    height: 51.34px;
+    position: absolute;
+    white-space: nowrap;
+  }
   .game-block {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
   }
   .card-box {
     display: flex;
@@ -284,8 +289,15 @@ a {
   }
   .card {
     background-color: rgb(255, 255, 255);
-    width: 378px;
+    width: 343px;
+    height: 528.63px;
     border-radius: 30px;
     z-index: 2;
+  }
+  .card-big {
+    height: 567.63px;
+  }
+  .card-middle {
+    height: 567.63px;
   }
 }/*# sourceMappingURL=style.css.map */
