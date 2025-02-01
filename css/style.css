@@ -224,7 +224,7 @@ a {
     background: url(../img/starsgreen1.svg), url(../img/starsgreen2.svg), url(../img/mobilbigstartop.svg), url(../img/Vector.svg), rgb(225, 255, 143);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 100px 67px, 100px 77px, 223px 228px, 160px 155px;
-    background-position: left 37px top 64px, bottom 79px right 34px, right top, left 225px top 0px;
+    background-position: left 37px top 64px, bottom 79px right 34px, right top, left 300px top 0px;
     position: relative;
     overflow-x: hidden;
   }
@@ -272,7 +272,7 @@ a {
     white-space: nowrap;
   }
   .game-block {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 100%;
     gap: 32px;
