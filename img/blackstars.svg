@@ -1,0 +1,16 @@
+<svg width="71.000000" height="108.000000" viewBox="0 0 71 108" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_29">
+			<rect id="svg" width="71.000000" height="108.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5_29)">
+		<path id="path" d="M17.43 1.92L20.21 12.4L20.27 12.62L20.48 12.72L30.25 17.43L19.76 20.21L19.54 20.27L19.44 20.48L14.73 30.25L11.95 19.76L11.89 19.54L11.68 19.44L1.92 14.73L12.4 11.95L12.62 11.89L12.72 11.68L17.43 1.92Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M20.21 12.4L20.27 12.62L20.48 12.72L30.25 17.43L19.76 20.21L19.54 20.27L19.44 20.48L14.73 30.25L11.95 19.76L11.89 19.54L11.68 19.44L1.92 14.73L12.4 11.95L12.62 11.89L12.72 11.68L17.43 1.92L20.21 12.4Z" stroke="#BCEC30" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<path id="path" d="M46.22 55.02L51.32 74.25L51.38 74.47L51.58 74.57L69.5 83.22L50.27 88.32L50.05 88.38L49.95 88.59L41.31 106.5L36.21 87.27L36.15 87.05L35.94 86.95L18.02 78.31L37.25 73.21L37.47 73.15L37.57 72.94L46.22 55.02Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M51.32 74.25L51.38 74.47L51.58 74.57L69.5 83.22L50.27 88.32L50.05 88.38L49.95 88.59L41.31 106.5L36.21 87.27L36.15 87.05L35.94 86.95L18.02 78.31L37.25 73.21L37.47 73.15L37.57 72.94L46.22 55.02L51.32 74.25Z" stroke="#BCEC30" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	</g>
+</svg>
