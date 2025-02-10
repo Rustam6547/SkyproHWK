@@ -44,8 +44,7 @@ a {
   
 }
 .top-welcome {
-  //width: 768px;
-  height: 358px;
+  
   padding-top: 196px;
   display: flex;
   flex-direction: column;
@@ -61,6 +60,7 @@ a {
       font-weight: 600;
       width: 247px;
       height: 66px;
+      transition: 3s;
       &:hover {
           background: rgb(255, 255, 255);
           color: rgb(0, 0, 0);
@@ -68,8 +68,7 @@ a {
   }   
 }
 .top-box {
- width: 768px;
- height: 244px;
+ 
  display: flex;
  flex-direction: column;
  gap: 24px;
@@ -79,7 +78,6 @@ a {
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
-  letter-spacing: 0px;
   text-align: left;
  }
  &__info {
@@ -115,19 +113,18 @@ a {
   background-size: 71px 108px, 584.72px 584.72px, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top 770px left 25px, top 70px right -143px, center;
-  height: 1470px;
-  padding-top: 94px;  
-  padding-bottom: 50px;
+//  height: 1470px;
+
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  
 
-  &__about {
+  /*&__about {
     height: 198px; 
     display: flex;
     flex-direction: column;
     gap: 24px;
-  }
+  }*/
 
   &__title {
       color: rgb(255, 255, 255);
@@ -136,6 +133,7 @@ a {
       font-weight: 700;
       line-height: 78px;
       text-align: left;
+      padding-top: 94px;
   }
 
   &__info {
@@ -145,12 +143,15 @@ a {
       font-weight: 400;
       line-height: 32px;
       text-align: left;
+      padding-top: 24px;
   }
 }
 .card-box {
   display: flex;
   gap: 32px;
   justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 72px;
 }
 .card-box__column {
   display: flex;
@@ -166,6 +167,7 @@ a {
   border-radius: 30px;
   box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
   background: rgb(255, 255, 255);
+  transition: 1s;
   &:hover {
       transform: scale(1.1);
   }
@@ -208,7 +210,6 @@ a {
   height: 512px;
 }
 .minigames {
-  height: 3500px;
   background: url(./img/stars1.svg), url(./img/stars2.svg), #202027;
   background-size: 113px 103px, 139px 89px;
   background-repeat: no-repeat, no-repeat;
@@ -225,10 +226,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding-bottom: 48.88px;
 }
 .game {
-  width: 1200px;
-  height: 500px;
   background: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -236,8 +236,13 @@ a {
   &__left {
       justify-content: space-between;
   }
+  &__right {
+    
+    padding-left: 0;
+}
 }
 .game-info {
+  width: 284px;
   padding: 48px;
   display: flex;
   flex-direction: column;
