@@ -1,5 +1,8 @@
-let number  = 20; 
-alert(number);
+let a0 = 10;
+// Выводим значение переменной a на экран
+alert(a0);
+a0 = 20;
+alert(a0);
 
 const date = 2007;
 alert  ('Год выхода нового айфона - '+ date);
